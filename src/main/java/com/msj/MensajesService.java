@@ -17,7 +17,7 @@ public class MensajesService {
         MensajesDAO.crearMensajeDB(registro);
     }
     public static void listarMensajes(){
-
+        MensajesDAO.leerMensajesDB();
     }
     public static void borrarMensaje(){
 
